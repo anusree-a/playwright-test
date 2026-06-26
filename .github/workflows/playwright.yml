@@ -1,9 +1,9 @@
 name: Playwright tests
 on:
   push:
-   branches: [main, master]
+   branches: [js-yml-test]
   pull_request:
-    branches: [main, master]
+    branches: [js-yml-test]
 jobs:
   test:
    runs-on: ubuntu-latest
